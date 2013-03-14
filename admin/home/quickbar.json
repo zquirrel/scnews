@@ -1,0 +1,10 @@
+[
+  {
+    "path": "home/index",
+    "icon": "home"
+  },
+  {
+    "path": "page/new",
+    "icon": "edit"
+  }
+]

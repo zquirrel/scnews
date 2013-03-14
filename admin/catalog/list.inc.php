@@ -7,7 +7,7 @@
       <li><a href="">链接</a></li>
     </ul>
   </div>
-  <div class="pull-left text">查看文章::<?= catalog::name() ?></div>
+  <div class="pull-left text">查看栏目::<?= catalog::name() ?></div>
   <div class="clearfix"></div>
 </div>
 <div class="content">

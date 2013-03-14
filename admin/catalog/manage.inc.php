@@ -17,7 +17,7 @@
     <tbody>
 <?php tpl::begin() ?>
       <tr>
-        <td><a href="<?=$this->module('catalog/edit')?>?page_id=$page_id">$name</a></td>
+        <td><a href="<?=$this->module('catalog/list')?>?catalog=$path">$name</a></td>
         <td>
           $path
         </td>

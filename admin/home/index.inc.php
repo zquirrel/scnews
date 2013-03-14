@@ -17,10 +17,13 @@ function greeting() {
 }
 function quickbar($tpl) {
   global $export;
-  return tpl::file($tpl, array(
-    'path' => $export->module('home'),
-    'icon' => 'home'
-  ));
+  $mdl = json_decode(file_get_contents(dirname(__FILE__).'/quickbar.json'));
+  foreach ($mdl as $it) {
+    echo tpl::file($tpl, array(
+      'path' => $export->module($it->path),
+      'icon' => $it->icon
+    ));
+  }
 }
 ?>
 <div class="toolbar">
@@ -29,7 +32,6 @@ function quickbar($tpl) {
     <li><a href="$path"><i class="icon-$icon icon-2x"></i></a></li>
     <?php tpl::end('qb-item') ?>
     <?=quickbar('qb-item') ?>
-    <li><a id="qb-add-btn"><i class="icon-plus icon-2x"></i></a></li>
   </ul>
 </div>
 <div class="pic-msg">

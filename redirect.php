@@ -32,7 +32,6 @@
         <p>
         <?php if (isset($time) && $time != false): ?>
           在 <span id="secs">5</span> 秒后，
-        <?php else: ?>
         <?php endif; ?>
         页面将跳转到 <a href="<?=$path?>"><?=$path?></a>。
         </p>

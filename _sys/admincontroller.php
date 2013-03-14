@@ -7,7 +7,7 @@ class admin {
   static function loc() {
     static $loc = null;
     if ($loc == null) {
-      $loc = isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : (isset($_GET['route']) ? $_GET['route'] : '/home');
+      $loc = isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : (isset($_GET['route']) ? $_GET['route'] : '/home-index');
     }
     return $loc;
   }
