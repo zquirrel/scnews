@@ -1,0 +1,13 @@
+.stage {
+  margin: 2em auto;
+  width: 600px;
+}
+.stage .box .content {
+  padding: 20px;
+}
+.stage .box form {
+  padding-top: 50px;
+}
+.stage .box .form-actions {
+  background-color: #fff;
+}

@@ -1,0 +1,20 @@
+{
+  "home": {
+    "name": "/home",
+    "title": "概览",
+    "id": "overview",
+    "link": ""
+  },
+  "catalog": {
+    "name": "/catalog",
+    "title": "栏目管理",
+    "id": "catalog-mdl",
+    "link": "catalog/manage"
+  },
+  "user": {
+    "name": "/user",
+    "title": "用户管理",
+    "id": "user-mdl",
+    "link": "user/manage"
+  }
+}

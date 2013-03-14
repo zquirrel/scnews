@@ -1,0 +1,56 @@
+.stage {
+  margin-top: 2em;
+}
+.stage > .box {
+  min-height: 400px;
+  background-image: url('../img/admin-bg.png');
+  background-repeat: repeat-y;
+}
+.sidebar {
+  margin-top: 1em;
+}
+.sidebar .accordion-group {
+  border-width: 0;
+  margin-bottom: 1em;
+}
+.sidebar .accordion-heading {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.sidebar .act {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  text-decoration: none;
+  text-align: center;
+  width: 1.2em;
+  border-radius: 1em;
+}
+.sidebar .act:hover {
+  background-color: #ccc;
+}
+.sidebar .accordion-inner {
+  border-top-width: 0;
+}
+.editor .control-label {
+  width: 3em;
+}
+.editor .controls {
+  margin-left: 4em;
+}
+#qb-add-btn {
+  border: 2px dotted #ccc;
+  margin: 0px 2px;
+  box-shadow: inset 0 0 5px #ccc;
+  background-color: #efefef;
+}
+.nav-toolbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid #ccc;
+}
+.nav-toolbar form {
+  margin: 5px 0;
+  text-align: center;
+}
